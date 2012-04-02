@@ -1,4 +1,5 @@
 require 'rails'
+require 'timezone'
 
 module I18nTimezones
   class Railtie < ::Rails::Railtie #:nodoc:
