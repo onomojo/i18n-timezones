@@ -1,0 +1,46 @@
+= I18nCountryTranslations
+
+I18n Country Translations - The purpose of this gem is to simply provide country translations. The gem is intended to be easy to combine with other gems that require i18n country translations so we can have common i18n country translation gem.
+
+If you're doing anything with country names and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's country translations and skip the hassle of having to add and manage each country translation for each locale.
+
+== Supported Locales
+There are translations for all of the following locales: de, en, es, fr, js, pt, zh
+
+Of those, we have only confirmed the translations for the following locales: en, es, jp
+
+== Installation
+
+Add to your Gemfile:
+
+    gem 'i18n-country-translations'
+
+== Usage
+
+  I18n.t(:US, :scope => :countries)
+  
+or
+  
+  t(:US, :scope => :countries)
+
+== Contributing
+
+You can easily start adding country translations to the locales with help of the following rake task:
+
+  IMPORT_LOCALE=en rake import:country_translation
+
+It will generate a new yml file that contains the country translations for the locale specified. Please note that some of the country translations may still be missing.
+
+You can also use these standard translations to help if you don't want to use the script above: http://unicode.org/repos/cldr-tmp/trunk/diff/summary/root.html
+
+If you find an error in a translation, please let us know.
+
+== Contributors
+Brian McQuay - http://www.onomojo.com
+Tsutomu Kuroda
+
+== License
+MIT or GPL
+
+== Special thanks
+https://github.com/svenfuchs/rails-i18n
