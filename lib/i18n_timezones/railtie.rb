@@ -1,10 +1,9 @@
 require 'rails'
-require 'timezone'
 
 module I18nTimezones
   class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'i18n-timezones' do |app|
-      I18nCountryTranslations::Railtie.instance_eval do
+      I18nTimezones::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
 
         add("rails/locale/#{pattern}.yml")
