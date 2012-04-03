@@ -15,30 +15,19 @@ Add to your Gemfile:
 
 == Usage
 
-  I18n.t(:US, :scope => :countries)
+The timezones will automatically be translated into the current locale. Even the :default will get translated to the current locale.
+
+  time_zone_select :user, :time_zone, ActiveSupport::TimeZone.us_zones, :default => "Pacific Time (US & Canada)"
+
+or just
   
-or
-  
-  t(:US, :scope => :countries)
+  time_zone_select :user, :time_zone
 
-== Contributing
 
-You can easily start adding country translations to the locales with help of the following rake task:
-
-  IMPORT_LOCALE=en rake import:country_translation
-
-It will generate a new yml file that contains the country translations for the locale specified. Please note that some of the country translations may still be missing.
-
-You can also use these standard translations to help if you don't want to use the script above: http://unicode.org/repos/cldr-tmp/trunk/diff/summary/root.html
-
-If you find an error in a translation, please let us know.
+If you find an error in a translation, please let us know. Please help us fill in the rest of the timezones.
 
 == Contributors
 Brian McQuay - http://www.onomojo.com
-Tsutomu Kuroda
 
 == License
 MIT or GPL
-
-== Special thanks
-https://github.com/svenfuchs/rails-i18n
