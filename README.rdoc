@@ -1,19 +1,17 @@
-= I18nCountryTranslations
+= I18nTimezones
 
-I18n Country Translations - The purpose of this gem is to simply provide country translations. The gem is intended to be easy to combine with other gems that require i18n country translations so we can have common i18n country translation gem.
+I18n Timezones - The purpose of this gem is to simply provide timezone translations. The gem is intended to be easy to combine with other gems that require i18n timezone translations so we can have common i18n timezone translation gem.
 
-If you're doing anything with country names and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's country translations and skip the hassle of having to add and manage each country translation for each locale.
+If you're doing anything with timezones and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's timezone translations and skip the hassle of having to add and manage each timezone translation for each locale.
 
 == Supported Locales
-There are translations for all of the following locales: de, en, es, fr, js, pt, zh
-
-Of those, we have only confirmed the translations for the following locales: en, es, jp
+There are translations for all of the following locales: en, es
 
 == Installation
 
 Add to your Gemfile:
 
-    gem 'i18n-country-translations'
+    gem 'i18n-timezones'
 
 == Usage
 
