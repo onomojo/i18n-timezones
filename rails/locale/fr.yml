@@ -1,7 +1,7 @@
 fr:
   timezones:
     "American Samoa": "Samoa américaines" # -11:00
-    #"International Date Line West": "" # -11:00
+    "International Date Line West": "International Date Line West" # -11:00
     "Midway Island": "Îles Midway" # -11:00
     "Hawaii": "Hawaï" # -10:00
     "Alaska": "Alaska" # -09:00
@@ -31,7 +31,7 @@ fr:
     "Brasilia": "Brasilia" # -03:00
     "Buenos Aires": "Buenos Aires" # -03:00
     "Greenland": "Groenland" # -03:00
-    #"Mid-Atlantic": "" # -02:00
+    "Mid-Atlantic": "Mid-Atlantic" # -02:00
     "Azores": "Açores" # -01:00
     "Cape Verde Is.": "Cap-Vert" # -01:00
     "Casablanca": "Casablanca" # +00:00
