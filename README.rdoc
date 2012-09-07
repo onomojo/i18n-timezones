@@ -29,6 +29,7 @@ If you find an error in a translation, please let us know. Please help us fill i
 == Contributors
 Brian McQuay - http://www.onomojo.com
 James McKinney - http://opennorth.ca
+Antoine Lyset - https://github.com/antoinelyset
 
 == License
 MIT or GPL
