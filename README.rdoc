@@ -30,6 +30,10 @@ If you find an error in a translation, please let us know. Please help us fill i
 Brian McQuay - http://www.onomojo.com
 James McKinney - http://opennorth.ca
 Antoine Lyset - https://github.com/antoinelyset
+Choongmin Lee - https://github.com/clee704
+
+== Version History
+0.1.0 - Adding Korean locale
 
 == License
 MIT or GPL
