@@ -31,6 +31,7 @@ Brian McQuay - http://www.onomojo.com
 James McKinney - http://opennorth.ca
 Antoine Lyset - https://github.com/antoinelyset
 Choongmin Lee - https://github.com/clee704
+https://github.com/azhuravlev
 
 == Version History
 0.1.0 - Adding Korean locale
