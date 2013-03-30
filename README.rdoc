@@ -5,7 +5,7 @@ I18n Timezones - The purpose of this gem is to simply provide timezone translati
 If you're doing anything with timezones and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's timezone translations and skip the hassle of having to add and manage each timezone translation for each locale.
 
 == Supported Locales
-There are translations for all of the following locales: en, es
+There are translations for all of the following locales: en, es, fr, de, ko.
 
 == Installation
 
@@ -32,6 +32,7 @@ James McKinney - http://opennorth.ca
 Antoine Lyset - https://github.com/antoinelyset
 Choongmin Lee - https://github.com/clee704
 https://github.com/azhuravlev
+Hannes Stiebitzhofer - https://github.com/stiebitzhofer
 
 == Version History
 0.1.0 - Adding Korean locale
