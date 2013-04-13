@@ -35,7 +35,8 @@ https://github.com/azhuravlev
 Hannes Stiebitzhofer - https://github.com/stiebitzhofer
 
 == Version History
-0.1.2 - Adding German locale
+1.2.1 - Fixing a German translation
+1.2 - Adding German locale
 0.1.1 - Adding Russian locale
 0.1.0 - Adding Korean locale
 
