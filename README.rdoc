@@ -6,6 +6,7 @@ If you're doing anything with timezones and translations, there's no need to rei
 
 == Supported Locales
 There are translations for all of the following locales: en, es, fr, de, ko.
+Japanese translation was added by ROR Lab on April 25, 2013.
 
 == Installation
 
