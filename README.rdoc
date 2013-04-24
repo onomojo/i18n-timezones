@@ -28,18 +28,19 @@ or just
 If you find an error in a translation, please let us know. Please help us fill in the rest of the timezones.
 
 == Contributors
-Brian McQuay - http://www.onomojo.com
-James McKinney - http://opennorth.ca
-Antoine Lyset - https://github.com/antoinelyset
-Choongmin Lee - https://github.com/clee704
-https://github.com/azhuravlev
-Hannes Stiebitzhofer - https://github.com/stiebitzhofer
+* Brian McQuay - http://www.onomojo.com
+* James McKinney - http://opennorth.ca
+* Antoine Lyset - https://github.com/antoinelyset
+* Choongmin Lee - https://github.com/clee704
+* https://github.com/azhuravlev
+* Hannes Stiebitzhofer - https://github.com/stiebitzhofer
+* Hyoseong Choi - https://github.com/rorlab
 
 == Version History
-1.2.1 - Fixing a German translation
-1.2 - Adding German locale
-0.1.1 - Adding Russian locale
-0.1.0 - Adding Korean locale
+* 1.2.1 - Fixing a German translation
+* 1.2 - Adding German locale
+* 0.1.1 - Adding Russian locale
+* 0.1.0 - Adding Korean locale
 
 == License
 MIT or GPL
