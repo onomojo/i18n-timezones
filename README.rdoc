@@ -37,6 +37,7 @@ If you find an error in a translation, please let us know. Please help us fill i
 * Hyoseong Choi - https://github.com/rorlab
 
 == Version History
+* 1.2.2 - Adding Japansese locale
 * 1.2.1 - Fixing a German translation
 * 1.2 - Adding German locale
 * 0.1.1 - Adding Russian locale
