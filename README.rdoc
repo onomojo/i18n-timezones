@@ -5,7 +5,8 @@ I18n Timezones - The purpose of this gem is to simply provide timezone translati
 If you're doing anything with timezones and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's timezone translations and skip the hassle of having to add and manage each timezone translation for each locale.
 
 == Supported Locales
-There are translations for all of the following locales: en, es, fr, de, ko.
+There are translations for all of the following locales: en, es, fr, de, ko, ru, ja.
+Japanese translation was added by ROR Lab on April 25, 2013.
 
 == Installation
 
@@ -27,18 +28,20 @@ or just
 If you find an error in a translation, please let us know. Please help us fill in the rest of the timezones.
 
 == Contributors
-Brian McQuay - http://www.onomojo.com
-James McKinney - http://opennorth.ca
-Antoine Lyset - https://github.com/antoinelyset
-Choongmin Lee - https://github.com/clee704
-https://github.com/azhuravlev
-Hannes Stiebitzhofer - https://github.com/stiebitzhofer
+* Brian McQuay - http://www.onomojo.com
+* James McKinney - http://opennorth.ca
+* Antoine Lyset - https://github.com/antoinelyset
+* Choongmin Lee - https://github.com/clee704
+* https://github.com/azhuravlev
+* Hannes Stiebitzhofer - https://github.com/stiebitzhofer
+* Hyoseong Choi - https://github.com/rorlab
 
 == Version History
-1.2.1 - Fixing a German translation
-1.2 - Adding German locale
-0.1.1 - Adding Russian locale
-0.1.0 - Adding Korean locale
+* 1.2.2 - Adding Japansese locale
+* 1.2.1 - Fixing a German translation
+* 1.2 - Adding German locale
+* 0.1.1 - Adding Russian locale
+* 0.1.0 - Adding Korean locale
 
 == License
 MIT or GPL
