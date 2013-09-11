@@ -5,7 +5,7 @@ I18n Timezones - The purpose of this gem is to simply provide timezone translati
 If you're doing anything with timezones and translations, there's no need to reinvent the wheel and add your own translations. Just use this gem's timezone translations and skip the hassle of having to add and manage each timezone translation for each locale.
 
 == Supported Locales
-There are translations for all of the following locales: en, es, fr, de, ko, ru, ja.
+There are translations for all of the following locales: en, de, es, fr, it, ja, ko, nl, pt, ru, zh-TW.
 Japanese translation was added by ROR Lab on April 25, 2013.
 
 == Installation
@@ -21,7 +21,7 @@ The timezones will automatically be translated into the current locale. Even the
   time_zone_select :user, :time_zone, ActiveSupport::TimeZone.us_zones, :default => "Pacific Time (US & Canada)"
 
 or just
-  
+
   time_zone_select :user, :time_zone
 
 
@@ -35,8 +35,10 @@ If you find an error in a translation, please let us know. Please help us fill i
 * https://github.com/azhuravlev
 * Hannes Stiebitzhofer - https://github.com/stiebitzhofer
 * Hyoseong Choi - https://github.com/rorlab
+* Steve Hodges - https://github.com/stevehodges
 
 == Version History
+* 1.2.3 - Adding Italian, Dutch, Portuguese, and Chinese (Traditional) locales
 * 1.2.2 - Adding Japansese locale
 * 1.2.1 - Fixing a German translation
 * 1.2 - Adding German locale
