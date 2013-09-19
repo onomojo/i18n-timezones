@@ -35,8 +35,11 @@ If you find an error in a translation, please let us know. Please help us fill i
 * https://github.com/azhuravlev
 * Hannes Stiebitzhofer - https://github.com/stiebitzhofer
 * Hyoseong Choi - https://github.com/rorlab
+* Md. Hasinur Rahman - https://github.com/likhon
+* stevehodges - https://github.com/stevehodges
 
 == Version History
+* 1.2.3 - Adding Arabic, Italian, Dutch, Portuguese, and Chinese (Traditional) locales
 * 1.2.2 - Adding Japansese locale
 * 1.2.1 - Fixing a German translation
 * 1.2 - Adding German locale
