@@ -1,6 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 
-require 'rspec'
+#require 'rspec/rails'
 require 'i18n-spec'
 require 'i18n/core_ext/hash'
 require 'active_support'
@@ -12,7 +12,7 @@ RSpec.configure do |config|
   config.fail_fast = true
 end
 
-module Config
+module RbConfig
   class Application < ::Rails::Application
     # configuration here if needed
     config.active_support.deprecation = :stderr
@@ -20,4 +20,4 @@ module Config
 end
  
 # Initialize the application
-Config::Application.initialize!
+RbConfig::Application.initialize!
