@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
   s.require_path = 'lib'
   s.platform     = Gem::Platform::RUBY
+  s.licenses = ['MIT', 'GPL-2']
 
   s.add_dependency('i18n', '~> 0.5')
   s.add_dependency "rails", ">= 4.0.0"
