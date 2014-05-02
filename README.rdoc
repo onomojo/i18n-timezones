@@ -37,8 +37,10 @@ If you find an error in a translation, please let us know. Please help us fill i
 * Hyoseong Choi - https://github.com/rorlab
 * Md. Hasinur Rahman - https://github.com/likhon
 * Steve Hodges - https://github.com/stevehodges
+* https://github.com/cbeckr
 
 == Version History
+* 1.3.2 - Adding zh-CN and updating de
 * 1.3.1 - Adding license to gemspec
 * 1.3 - Upgrading to Rails 4
 * 1.2.3 - Adding Arabic, Italian, Dutch, Portuguese, and Chinese (Traditional) locales
