@@ -70,6 +70,7 @@ fr:
     "Jerusalem": "Jérusalem" # +02:00
     "Kyiv": "Kiev" # +02:00
     "Pretoria": "Pretoria" # +02:00
+    "Kaliningrad": "Kaliningrad" # +02:00
     "Riga": "Riga" # +02:00
     "Sofia": "Sofia" # +02:00
     "Tallinn": "Tallinn" # +02:00
@@ -82,11 +83,12 @@ fr:
     "Tehran": "Téhéran" # +03:30
     "Abu Dhabi": "Abou Dabi" # +04:00
     "Baku": "Bakou" # +04:00
-    "Moscow": "Moscou" # +04:00
+    "Moscow": "Moscou" # +03:00
     "Muscat": "Mascate" # +04:00
-    "St. Petersburg": "Saint-Pétersbourg" # +04:00
+    "St. Petersburg": "Saint-Pétersbourg" # +03:00
     "Tbilisi": "Tbilissi" # +04:00
-    "Volgograd": "Volgograd" # +04:00
+    "Volgograd": "Volgograd" # +03:00
+    "Samara": "Samara" # +04:00
     "Yerevan": "Erevan" # +04:00
     "Kabul": "Kaboul" # +04:30
     "Islamabad": "Islamabad" # +05:00
@@ -101,23 +103,23 @@ fr:
     "Almaty": "Almaty" # +06:00
     "Astana": "Astana" # +06:00
     "Dhaka": "Dacca" # +06:00
-    "Ekaterinburg": "Iekaterinbourg" # +06:00
+    "Ekaterinburg": "Iekaterinbourg" # +05:00
     "Rangoon": "Rangoun" # +06:30
     "Bangkok": "Bangkok" # +07:00
     "Hanoi": "Hanoï" # +07:00
     "Jakarta": "Jakarta" # +07:00
-    "Novosibirsk": "Novossibirsk" # +07:00
+    "Novosibirsk": "Novossibirsk" # +06:00
     "Beijing": "Pékin" # +08:00
     "Chongqing": "Chongqing" # +08:00
     "Hong Kong": "Hong Kong" # +08:00
-    "Krasnoyarsk": "Krasnoïarsk" # +08:00
+    "Krasnoyarsk": "Krasnoïarsk" # +07:00
     "Kuala Lumpur": "Kuala Lumpur" # +08:00
     "Perth": "Perth" # +08:00
     "Singapore": "Singapour" # +08:00
     "Taipei": "Taipei" # +08:00
     "Ulaan Bataar": "Oulan-Bator" # +08:00
     "Urumqi": "Ürümqi" # +08:00
-    "Irkutsk": "Irkoutsk" # +09:00
+    "Irkutsk": "Irkoutsk" # +08:00
     "Osaka": "Osaka" # +09:00
     "Sapporo": "Sapporo" # +09:00
     "Seoul": "Séoul" # +09:00
@@ -131,9 +133,10 @@ fr:
     "Melbourne": "Melbourne" # +10:00
     "Port Moresby": "Port Moresby" # +10:00
     "Sydney": "Sydney" # +10:00
-    "Yakutsk": "Iakoutsk" # +10:00
+    "Yakutsk": "Iakoutsk" # +09:00
     "New Caledonia": "Nouvelle-Calédonie" # +11:00
-    "Vladivostok": "Vladivostok" # +11:00
+    "Vladivostok": "Vladivostok" # +10:00
+    "Srednekolymsk": "Srednekolymsk" # +11:00
     "Auckland": "Auckland" # +12:00
     "Fiji": "Fidji" # +12:00
     "Kamchatka": "Kamtchatka" # +12:00
