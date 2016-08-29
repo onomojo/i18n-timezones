@@ -48,6 +48,7 @@ If you find an error in a translation, please let us know. Please help us fill i
 
 
 == Version History
+* 1.3.6 - Fix mistakes of translation in Japanese. add hebrew translation. Fix Buenos Aires name in Russian
 * 1.3.5 - Adding pt-BR
 * 1.3.4 - Added missing Russian Federation timezones. Russian name of "Central America" was fixed.
 * 1.3.3 - Fix ru translation for Paris

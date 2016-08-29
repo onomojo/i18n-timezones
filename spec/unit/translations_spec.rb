@@ -6,8 +6,8 @@ Dir.glob("rails/locale/*.yml") do |locale_file|
     I18n.locale = locale_file.split('/').last.split('.').first
     ActiveSupport::TimeZone.all.each do |zone|
       p I18n.t(zone.name, :scope => :timezones, :separator => "\001") if I18n.t(zone.name, :scope => :timezones, :separator => "\001").include?('translation missing')
-      it { I18n.t(zone.name, :scope => :timezones, :separator => "\001").should_not == zone }
-      it { I18n.t(zone.name, :scope => :timezones, :separator => "\001").include?('translation missing').should == false }
+      it { expect(I18n.t(zone.name, :scope => :timezones, :separator => "\001")).not_to eq(zone) }
+      it { expect(I18n.t(zone.name, :scope => :timezones, :separator => "\001").include?('translation missing')).to eq(false) }
     end
   end
 end
