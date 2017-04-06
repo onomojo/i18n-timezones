@@ -1,0 +1,12 @@
+"no": &no
+  timezones:
+    Oslo: Oslo # +01:00
+
+# From https://en.wikipedia.org/wiki/Norwegian_language
+# no – inclusive code
+# Individual codes:
+# nb – Bokmål
+# nn – Nynorsk
+
+nn: *no
+nb: *no

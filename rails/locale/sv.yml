@@ -1,0 +1,4 @@
+sv:
+  timezones:
+    "Stockholm": "Stockholm" # +01:00
+    "Helsinki": "Helsingfors" # +02:00
