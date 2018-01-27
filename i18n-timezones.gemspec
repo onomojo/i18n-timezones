@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.licenses = ['MIT', 'GPL-2']
 
-  s.add_dependency('i18n', '~> 0.5')
-  s.add_dependency "rails", ">= 4.0.0"
-  s.add_development_dependency "rspec-rails", ">= 2.14.0"
+  s.add_dependency('i18n', '~> 0.9.3')
+  s.add_dependency "rails", ">= 5.1.4"
+  s.add_development_dependency "rspec-rails", ">= 3.7.2"
   s.add_development_dependency "i18n-spec", ">= 0.1.1"
   s.add_development_dependency "spork", "~> 1.0rc"
 end
