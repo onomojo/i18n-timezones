@@ -4,6 +4,8 @@ begin
 rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
+
+import 'lib/tasks/i18n_timezones/missing_translations.rake'
 require 'rake'
 require 'rake/testtask'
 require 'rbconfig'
