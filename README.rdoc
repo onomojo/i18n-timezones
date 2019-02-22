@@ -30,4 +30,3 @@ If you find an error in a translation, please let us know. Please help us fill i
 
 == License
 MIT or GPL
-
