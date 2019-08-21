@@ -1,3 +1,7 @@
+## 1.4.8
+
+- Updating dependencies. Adding Puerto Rico.
+
 ## 1.4.7
 
 - Updating dependencies. Fixing Ulaanbaatar and Kyiv translation names, typo in Russian translation of "Solomon Is.", some zh-CN translations.
