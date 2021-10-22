@@ -1,3 +1,13 @@
+## 1.4.9
+
+- Clean up duplicate entries in locale files
+- Add missing entries in locale files
+- Convert README to markdown to match CHANGELOG
+- Update README with new information, history, and link to KUDO
+- Update license to exclusively MIT
+- Add test coverage for patched methods in `ActiveSupport::TimeZone` class
+- Update Ruby version to `2.7.4`
+
 ## 1.4.8
 
 - Updating dependencies. Adding Puerto Rico.
