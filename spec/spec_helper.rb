@@ -1,11 +1,9 @@
-ENV["RAILS_ENV"] = "test"
+ENV['RAILS_ENV'] = 'test'
 
-#require 'rspec/rails'
 require 'i18n-spec'
 require 'i18n/core_ext/hash'
-require 'active_support'
-require 'rails/all'
 require 'i18n-timezones'
+require 'active_support'
 
 RSpec.configure do |config|
   config.mock_with :rspec
@@ -18,6 +16,6 @@ module RbConfig
     config.active_support.deprecation = :stderr
   end
 end
- 
+
 # Initialize the application
 RbConfig::Application.initialize!
