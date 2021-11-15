@@ -1,3 +1,7 @@
+## 1.5.0
+
+- Add missing `en.yml` locale file
+
 ## 1.4.9
 
 - Clean up duplicate entries in locale files
