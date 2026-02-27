@@ -1,13 +1,23 @@
-require 'spec_helper'
+# frozen_string_literal: true
+
+require "spec_helper"
 
 Dir.glob("rails/locale/*.yml") do |locale_file|
-  describe "a i18n-timezones #{locale_file} locale file" do
-    it_behaves_like 'a valid locale file', locale_file
-    I18n.locale = locale_file.split('/').last.split('.').first
-    ActiveSupport::TimeZone.all.each do |zone|
-      p I18n.t(zone.name, :scope => :timezones, :separator => "\001") if I18n.t(zone.name, :scope => :timezones, :separator => "\001").include?('translation missing')
-      it { expect(I18n.t(zone.name, :scope => :timezones, :separator => "\001")).not_to eq(zone) }
-      it { expect(I18n.t(zone.name, :scope => :timezones, :separator => "\001").include?('translation missing')).to eq(false) }
+  locale = File.basename(locale_file, ".yml")
+
+  describe "#{locale} locale file" do
+    it_behaves_like "a valid locale file", locale_file
+
+    context "with locale set to #{locale}" do
+      before { I18n.locale = locale }
+      after { I18n.locale = :en }
+
+      ActiveSupport::TimeZone.all.each do |zone|
+        it "translates #{zone.name}" do
+          translation = I18n.t(zone.name, scope: :timezones, separator: "\001")
+          expect(translation).not_to include("translation missing")
+        end
+      end
     end
   end
 end
