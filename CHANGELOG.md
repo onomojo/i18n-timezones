@@ -1,3 +1,38 @@
+## 2.0.0
+
+### Breaking Changes
+- Minimum Ruby version is now 3.1 (was 2.3)
+- Minimum Rails/ActiveSupport version is now 7.0 (was 5.1)
+- Runtime dependency changed from `rails` to `activesupport` + `railties`
+- License simplified to MIT only (removed GPL-3.0)
+
+### New Features
+- Added English (en) locale file
+- Added Albanian (sq) locale
+- Added Basque (eu) locale
+- Added Catalan (ca) locale
+- Added Finnish (fi) locale
+- Added Norwegian (no) locale
+- Added Swedish (sv) locale
+- Added Thai (th) locale
+- Added Ukrainian (uk) locale
+- Added Asuncion timezone to all locales
+
+### Bug Fixes
+- Fixed Korean and Japanese pronunciation of Kyiv to Ukrainian style
+- Fixed Spanish translations: Muscat (Mascate), Kolkata (Calcuta)
+- Fixed spec_helper.rb redefining Ruby's built-in RbConfig module
+
+### Improvements
+- Replaced Travis CI with GitHub Actions (Ruby 3.1-3.3 x Rails 7.0-8.0 matrix)
+- Converted README from rdoc to Markdown
+- Modernized Ruby syntax (frozen string literals, new hash syntax)
+- Railtie now requires only `rails/railtie` instead of all of Rails
+- Railtie loading is conditional on `defined?(Rails::Railtie)`
+- Test suite no longer boots a full Rails application
+- Removed Gemfile.lock from repository
+- Fixed MIT-LICENSE copyright holder
+
 ## 1.4.8
 
 - Updating dependencies. Adding Puerto Rico.

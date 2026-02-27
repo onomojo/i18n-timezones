@@ -1,23 +1,20 @@
-ENV["RAILS_ENV"] = "test"
+# frozen_string_literal: true
 
-#require 'rspec/rails'
-require 'i18n-spec'
-require 'i18n/core_ext/hash'
-require 'active_support'
-require 'rails/all'
-require 'i18n-timezones'
+require "active_support"
+require "active_support/core_ext/object/blank"
+require "active_support/core_ext/time"
+require "i18n-spec"
+require "i18n"
+
+# Load locale files directly without needing a Rails application
+locale_dir = File.expand_path("../../rails/locale", __FILE__)
+I18n.load_path += Dir[File.join(locale_dir, "*.yml")]
+I18n.default_locale = :en
+I18n.available_locales = Dir[File.join(locale_dir, "*.yml")].map { |f| File.basename(f, ".yml").to_sym }
+
+# Load the timezone monkey-patch
+require "i18n_timezones/timezone"
 
 RSpec.configure do |config|
   config.mock_with :rspec
-  config.fail_fast = true
 end
-
-module RbConfig
-  class Application < ::Rails::Application
-    # configuration here if needed
-    config.active_support.deprecation = :stderr
-  end
-end
- 
-# Initialize the application
-RbConfig::Application.initialize!

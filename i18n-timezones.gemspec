@@ -1,9 +1,7 @@
-$:.push File.expand_path("../lib", __FILE__)
+# frozen_string_literal: true
 
-# Maintain your gem's version:
-require "i18n_timezones/version"
+require_relative "lib/i18n_timezones/version"
 
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "i18n-timezones"
   s.version     = I18nTimezones::VERSION
@@ -11,17 +9,23 @@ Gem::Specification.new do |s|
   s.email       = ["brian@onomojo.com"]
   s.homepage    = "https://github.com/onomojo/i18n-timezones"
   s.summary     = "I18n Timezone Translations"
-  s.description = "The purpose of this gem is to simply provide timezone translations. The gem is intended to be easy to combine with other gems that require i18n timezone translations so we can have common i18n timezone translation gem."
+  s.description = "Provides timezone translations for ActiveSupport::TimeZone. " \
+                  "Translates timezone names via I18n for use with time_zone_select and similar helpers."
+  s.license     = "MIT"
 
-  s.files        = Dir.glob("lib/**/*") + Dir.glob("rails/locale/*") +
-                   %w(README.rdoc MIT-LICENSE)
-  s.test_files = Dir["test/**/*"]
-  s.require_path = 'lib'
-  s.platform     = Gem::Platform::RUBY
-  s.licenses = ['MIT', 'GPL-3.0']
+  s.required_ruby_version = ">= 3.1"
 
-  s.add_dependency('i18n', '>= 0.9.3')
-  s.add_runtime_dependency 'rails', '>= 5.1.6.2'
-  s.add_development_dependency 'rspec-rails', '>= 3.7.2'
-  s.add_development_dependency 'i18n-spec', '>= 0.1.1'
+  s.metadata = {
+    "homepage_uri"    => s.homepage,
+    "source_code_uri" => "https://github.com/onomojo/i18n-timezones",
+    "changelog_uri"   => "https://github.com/onomojo/i18n-timezones/blob/master/CHANGELOG.md",
+    "bug_tracker_uri" => "https://github.com/onomojo/i18n-timezones/issues"
+  }
+
+  s.files = Dir["lib/**/*", "rails/locale/*", "README.md", "CHANGELOG.md", "MIT-LICENSE"]
+  s.require_paths = ["lib"]
+
+  s.add_dependency "activesupport", ">= 7.0", "< 9"
+  s.add_dependency "railties",      ">= 7.0", "< 9"
+  s.add_dependency "i18n",          ">= 1.0", "< 3"
 end
