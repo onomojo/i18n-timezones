@@ -1,155 +1,154 @@
 de:
   timezones:
-    "American Samoa": "Amerikanisch-Samoa" # -11:00
-    "International Date Line West": "Internationale Datumsgrenze" # -11:00
-    "Midway Island": "Midwayinseln" # -11:00
-    "Hawaii": "Hawaii" # -10:00
-    "Alaska": "Alaska" # -09:00
-    "Pacific Time (US & Canada)": "Pacific Time (USA u. Kanada)" # -08:00
-    "Tijuana": "Tijuana" # -08:00
-    "Arizona": "Arizona" # -07:00
-    "Chihuahua": "Chihuahua" # -07:00
-    "Mazatlan": "Mazatlán" # -07:00
-    "Mountain Time (US & Canada)": "Mountain Time (USA u. Kanada)" # -07:00
-    "Central America": "Zentralamerika" # -06:00
-    "Central Time (US & Canada)": "Central Time (USA u. Kanada)" # -06:00
-    "Guadalajara": "Guadalajara" # -06:00
-    "Mexico City": "Mexiko-Stadt" # -06:00
-    "Monterrey": "Monterrey" # -06:00
-    "Saskatchewan": "Saskatchewan" # -06:00
-    "Bogota": "Bogotá" # -05:00
-    "Eastern Time (US & Canada)": "Eastern Time (USA u. Kanada)" # -05:00
-    "Indiana (East)": "Indiana (Ost)" # -05:00
-    "Lima": "Lima" # -05:00
-    "Quito": "Quito" # -05:00
+    "International Date Line West": "Internationale Datumsgrenze"
+    "American Samoa": "Amerikanisch-Samoa"
+    "Midway Island": "Midwayinseln"
+    "Hawaii": "Hawaii"
+    "Alaska": "Alaska"
+    "Pacific Time (US & Canada)": "Pacific Time (USA u. Kanada)"
+    "Tijuana": "Tijuana"
+    "Arizona": "Arizona"
+    "Mazatlan": "Mazatlán"
+    "Mountain Time (US & Canada)": "Mountain Time (USA u. Kanada)"
+    "Central America": "Zentralamerika"
+    "Central Time (US & Canada)": "Central Time (USA u. Kanada)"
+    "Chihuahua": "Chihuahua"
+    "Guadalajara": "Guadalajara"
+    "Mexico City": "Mexiko-Stadt"
+    "Monterrey": "Monterrey"
+    "Saskatchewan": "Saskatchewan"
+    "Bogota": "Bogotá"
+    "Eastern Time (US & Canada)": "Eastern Time (USA u. Kanada)"
+    "Indiana (East)": "Indiana (Ost)"
+    "Lima": "Lima"
+    "Quito": "Quito"
     "Asuncion": "Asunción"
-    "Caracas": "Caracas" # -04:30
-    "Atlantic Time (Canada)": "Atlantic Time (Kanada)" # -04:00
-    "Georgetown": "Georgetown" # -04:00
-    "La Paz": "La Paz" # -04:00
-    "Santiago": "Santiago" # -04:00
-    "Newfoundland": "Neufundland" # -03:30
-    "Brasilia": "Brasília" # -03:00
-    "Buenos Aires": "Buenos Aires" # -03:00
-    "Greenland": "Grönland" # -03:00
-    "Mid-Atlantic": "Mittelatlantik" # -02:00
-    "Azores": "Azoren" # -01:00
-    "Cape Verde Is.": "Kapverdische Inseln" # -01:00
-    "Casablanca": "Casablanca" # +00:00
-    "Dublin": "Dublin" # +00:00
-    "Edinburgh": "Edinburgh" # +00:00
-    "Lisbon": "Lissabon" # +00:00
-    "London": "London" # +00:00
-    "Monrovia": "Monrovia" # +00:00
-    "UTC": "UTC" # +00:00
-    "Amsterdam": "Amsterdam" # +01:00
-    "Belgrade": "Belgrad" # +01:00
-    "Berlin": "Berlin" # +01:00
-    "Bern": "Bern" # +01:00
-    "Bratislava": "Bratislava" # +01:00
-    "Brussels": "Brüssel" # +01:00
-    "Budapest": "Budapest" # +01:00
-    "Copenhagen": "Kopenhagen" # +01:00
-    "Ljubljana": "Ljubljana" # +01:00
-    "Madrid": "Madrid" # +01:00
-    "Paris": "Paris" # +01:00
-    "Prague": "Prag" # +01:00
-    "Rome": "Rom" # +01:00
-    "Sarajevo": "Sarajevo" # +01:00
-    "Skopje": "Skopje" # +01:00
-    "Stockholm": "Stockholm" # +01:00
-    "Vienna": "Wien" # +01:00
-    "Warsaw": "Warschau" # +01:00
-    "West Central Africa": "West-Zentralafrika" # +01:00
-    "Zagreb": "Zagreb" # +01:00
-    "Athens": "Athen" # +02:00
-    "Bucharest": "Bukarest" # +02:00
-    "Cairo": "Kairo" # +02:00
-    "Harare": "Harare" # +02:00
-    "Helsinki": "Helsinki" # +02:00
-    "Istanbul": "Istanbul" # +02:00
-    "Jerusalem": "Jerusalem" # +02:00
-    "Kyiv": "Kiew" # +02:00
-    "Pretoria": "Pretoria" # +02:00
-    "Kaliningrad": "Kaliningrad" # +02:00
-    "Riga": "Riga" # +02:00
-    "Sofia": "Sofia" # +02:00
-    "Tallinn": "Tallinn" # +02:00
-    "Vilnius": "Vilnius" # +02:00
-    "Baghdad": "Bagdad" # +03:00
-    "Kuwait": "Kuwait" # +03:00
-    "Minsk": "Minsk" # +03:00
-    "Nairobi": "Nairobi" # +03:00
-    "Riyadh": "Riad" # +03:00
-    "Tehran": "Teheran" # +03:30
-    "Abu Dhabi": "Abu Dhabi" # +04:00
-    "Baku": "Baku" # +04:00
-    "Moscow": "Moskau" # +03:00
-    "Muscat": "Maskat" # +03:00
-    "St. Petersburg": "Sankt Petersburg" # +03:00
-    "Tbilisi": "Tiflis" # +04:00
-    "Volgograd": "Wolgograd" # +03:00
-    "Samara": "Samara" # +04:00
-    "Yerevan": "Jerewan" # +04:00
-    "Kabul": "Kabul" # +04:30
-    "Islamabad": "Islamabad" # +05:00
-    "Karachi": "Karatschi" # +05:00
-    "Tashkent": "Taschkent" # +05:00
-    "Chennai": "Chennai" # +05:30
-    "Kolkata": "Kalkutta" # +05:30
-    "Mumbai": "Mumbai" # +05:30
-    "New Delhi": "Neu-Delhi" # +05:30
-    "Sri Jayawardenepura": "Sri Jayawardenepura" # +05:30
-    "Kathmandu": "Kathmandu" # +05:45
-    "Almaty": "Almaty" # +06:00
-    "Astana": "Astana" # +06:00
-    "Dhaka": "Dhaka" # +06:00
-    "Ekaterinburg": "Jekaterinburg" # +05:00
-    "Rangoon": "Rangun" # +06:30
-    "Bangkok": "Bangkok" # +07:00
-    "Hanoi": "Hanoi" # +07:00
-    "Jakarta": "Jakarta" # +07:00
-    "Novosibirsk": "Nowosibirsk" # +06:00
-    "Beijing": "Peking" # +08:00
-    "Chongqing": "Chongqing" # +08:00
-    "Hong Kong": "Hongkong" # +08:00
-    "Krasnoyarsk": "Krasnojarsk" # +07:00
-    "Kuala Lumpur": "Kuala Lumpur" # +08:00
-    "Perth": "Perth" # +08:00
-    "Singapore": "Singapur" # +08:00
-    "Taipei": "Taipei" # +08:00
-    "Ulaan Bataar": "Ulaanbaatar" # +08:00
-    "Urumqi": "Ürümqi" # +08:00
-    "Irkutsk": "Irkutsk" # +08:00
-    "Osaka": "Osaka" # +09:00
-    "Sapporo": "Sapporo" # +09:00
-    "Seoul": "Seoul" # +09:00
-    "Tokyo": "Tokio" # +09:00
-    "Adelaide": "Adelaide" # +09:30
-    "Darwin": "Darwin" # +09:30
-    "Brisbane": "Brisbane" # +10:00
-    "Canberra": "Canberra" # +10:00
-    "Guam": "Guam" # +10:00
-    "Hobart": "Hobart" # +10:00
-    "Melbourne": "Melbourne" # +10:00
-    "Port Moresby": "Port Moresby" # +10:00
-    "Sydney": "Sydney" # +10:00
-    "Yakutsk": "Jakutsk" # +09:00
-    "New Caledonia": "Neukaledonien" # +11:00
-    "Vladivostok": "Wladiwostok" # +10:00
-    "Srednekolymsk": "Srednekolymsk" # +11:00
-    "Auckland": "Auckland" # +12:00
-    "Fiji": "Fidschi" # +12:00
-    "Kamchatka": "Kamtschatka" # +12:00
-    "Magadan": "Magadan" # +12:00
-    "Marshall Is.": "Marshallinseln" # +12:00
-    "Solomon Is.": "Salomonen" # +12:00
-    "Wellington": "Wellington" # +12:00
-    "Nuku'alofa": "Nuku'alofa" # +13:00
-    "Samoa": "Samoa" # +13:00
-    "Tokelau Is.": "Tokelau" # +14:00
-    "Montevideo": "Montevideo"
-    "Ulaanbaatar": "Ulaanbaatar"
-    "Chatham Is.": "Chatham-Inseln"
-    "Zurich": "Zürich"
+    "Atlantic Time (Canada)": "Atlantic Time (Kanada)"
+    "Caracas": "Caracas"
+    "Georgetown": "Georgetown"
+    "La Paz": "La Paz"
     "Puerto Rico": "Puerto Rico"
+    "Santiago": "Santiago"
+    "Newfoundland": "Neufundland"
+    "Brasilia": "Brasília"
+    "Buenos Aires": "Buenos Aires"
+    "Montevideo": "Montevideo"
+    "Greenland": "Grönland"
+    "Mid-Atlantic": "Mittelatlantik"
+    "Azores": "Azoren"
+    "Cape Verde Is.": "Kapverdische Inseln"
+    "Edinburgh": "Edinburgh"
+    "Lisbon": "Lissabon"
+    "London": "London"
+    "Monrovia": "Monrovia"
+    "UTC": "UTC"
+    "Amsterdam": "Amsterdam"
+    "Belgrade": "Belgrad"
+    "Berlin": "Berlin"
+    "Bern": "Bern"
+    "Bratislava": "Bratislava"
+    "Brussels": "Brüssel"
+    "Budapest": "Budapest"
+    "Casablanca": "Casablanca"
+    "Copenhagen": "Kopenhagen"
+    "Dublin": "Dublin"
+    "Ljubljana": "Ljubljana"
+    "Madrid": "Madrid"
+    "Paris": "Paris"
+    "Prague": "Prag"
+    "Rome": "Rom"
+    "Sarajevo": "Sarajevo"
+    "Skopje": "Skopje"
+    "Stockholm": "Stockholm"
+    "Vienna": "Wien"
+    "Warsaw": "Warschau"
+    "West Central Africa": "West-Zentralafrika"
+    "Zagreb": "Zagreb"
+    "Zurich": "Zürich"
+    "Athens": "Athen"
+    "Bucharest": "Bukarest"
+    "Cairo": "Kairo"
+    "Harare": "Harare"
+    "Helsinki": "Helsinki"
+    "Jerusalem": "Jerusalem"
+    "Kaliningrad": "Kaliningrad"
+    "Kyiv": "Kiew"
+    "Pretoria": "Pretoria"
+    "Riga": "Riga"
+    "Sofia": "Sofia"
+    "Tallinn": "Tallinn"
+    "Vilnius": "Vilnius"
+    "Baghdad": "Bagdad"
+    "Istanbul": "Istanbul"
+    "Kuwait": "Kuwait"
+    "Minsk": "Minsk"
+    "Moscow": "Moskau"
+    "Nairobi": "Nairobi"
+    "Riyadh": "Riad"
+    "St. Petersburg": "Sankt Petersburg"
+    "Volgograd": "Wolgograd"
+    "Tehran": "Teheran"
+    "Abu Dhabi": "Abu Dhabi"
+    "Baku": "Baku"
+    "Muscat": "Maskat"
+    "Samara": "Samara"
+    "Tbilisi": "Tiflis"
+    "Yerevan": "Jerewan"
+    "Kabul": "Kabul"
+    "Ekaterinburg": "Jekaterinburg"
+    "Islamabad": "Islamabad"
+    "Karachi": "Karatschi"
+    "Tashkent": "Taschkent"
+    "Chennai": "Chennai"
+    "Kolkata": "Kalkutta"
+    "Mumbai": "Mumbai"
+    "New Delhi": "Neu-Delhi"
+    "Sri Jayawardenepura": "Sri Jayawardenepura"
+    "Kathmandu": "Kathmandu"
+    "Almaty": "Almaty"
+    "Astana": "Astana"
+    "Dhaka": "Dhaka"
+    "Urumqi": "Ürümqi"
+    "Rangoon": "Rangun"
+    "Bangkok": "Bangkok"
+    "Hanoi": "Hanoi"
+    "Jakarta": "Jakarta"
+    "Krasnoyarsk": "Krasnojarsk"
+    "Novosibirsk": "Nowosibirsk"
+    "Beijing": "Peking"
+    "Chongqing": "Chongqing"
+    "Hong Kong": "Hongkong"
+    "Irkutsk": "Irkutsk"
+    "Kuala Lumpur": "Kuala Lumpur"
+    "Perth": "Perth"
+    "Singapore": "Singapur"
+    "Taipei": "Taipei"
+    "Ulaanbaatar": "Ulaanbaatar"
+    "Osaka": "Osaka"
+    "Sapporo": "Sapporo"
+    "Seoul": "Seoul"
+    "Tokyo": "Tokio"
+    "Yakutsk": "Jakutsk"
+    "Adelaide": "Adelaide"
+    "Darwin": "Darwin"
+    "Brisbane": "Brisbane"
+    "Canberra": "Canberra"
+    "Guam": "Guam"
+    "Hobart": "Hobart"
+    "Melbourne": "Melbourne"
+    "Port Moresby": "Port Moresby"
+    "Sydney": "Sydney"
+    "Vladivostok": "Wladiwostok"
+    "Magadan": "Magadan"
+    "New Caledonia": "Neukaledonien"
+    "Solomon Is.": "Salomonen"
+    "Srednekolymsk": "Srednekolymsk"
+    "Auckland": "Auckland"
+    "Fiji": "Fidschi"
+    "Kamchatka": "Kamtschatka"
+    "Marshall Is.": "Marshallinseln"
+    "Wellington": "Wellington"
+    "Chatham Is.": "Chatham-Inseln"
+    "Nuku'alofa": "Nuku'alofa"
+    "Samoa": "Samoa"
+    "Tokelau Is.": "Tokelau"

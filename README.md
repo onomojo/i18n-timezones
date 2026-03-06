@@ -50,9 +50,9 @@ ActiveSupport::TimeZone["Tokyo"].to_s
 
 ## Supported Locales
 
-Translations are provided for 24 locales:
+Translations are provided for 36 locales:
 
-ar, ca, de, en, es, eu, fi, fr, he, it, ja, ko, nl, no, pl, pt, pt-BR, ru, sq, sv, th, uk, zh-CN, zh-TW
+ar, bn, ca, cs, da, de, el, en, es, eu, fi, fr, he, hi, hr, hu, id, it, ja, ko, ms, nl, no, pl, pt, pt-BR, ro, ru, sq, sv, th, tr, uk, vi, zh-CN, zh-TW
 
 ## Without Rails
 

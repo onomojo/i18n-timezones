@@ -1,3 +1,30 @@
+## 2.1.0
+
+### New Features
+- Added Bengali (bn) locale
+- Added Croatian (hr) locale
+- Added Czech (cs) locale
+- Added Danish (da) locale
+- Added Greek (el) locale
+- Added Hindi (hi) locale
+- Added Hungarian (hu) locale
+- Added Indonesian (id) locale
+- Added Malay (ms) locale
+- Added Romanian (ro) locale
+- Added Turkish (tr) locale
+- Added Vietnamese (vi) locale
+
+### Bug Fixes
+- Fixed Dutch translation of "Lima" (was incorrectly "Vijf", meaning "Five")
+- Fixed Hebrew duplicate entries for "Kyiv" and "Ulaanbaatar"
+- Fixed Portuguese (pt, pt-BR) translation of "Ulaanbaatar" (was "Ulaan Bataar")
+- Fixed Dutch translation of "Ulaanbaatar" (was "Ulaan Bataar")
+
+### Improvements
+- Removed dead "Ulaan Bataar" keys from 9 locales (Rails uses "Ulaanbaatar")
+- Normalized key ordering across all locale files to match en.yml
+- Removed duplicate timezone entries from 12 locale files
+
 ## 2.0.0
 
 ### Breaking Changes
