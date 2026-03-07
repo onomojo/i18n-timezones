@@ -5,12 +5,19 @@ require "active_support/core_ext/object/blank"
 require "active_support/core_ext/time"
 require "i18n-spec"
 require "i18n"
+require "yaml"
+require "i18n_timezones_data"
 
-# Load locale files directly without needing a Rails application
-locale_dir = File.expand_path("../../rails/locale", __FILE__)
-I18n.load_path += Dir[File.join(locale_dir, "*.yml")]
+# Load translations from the data gem
+data_dir = I18nTimezonesData.data_dir
+Dir[File.join(data_dir, "*.yml")].each do |file|
+  locale = File.basename(file, ".yml").to_sym
+  translations = YAML.safe_load(File.read(file))
+  I18n.backend.store_translations(locale, timezones: translations)
+end
+
 I18n.default_locale = :en
-I18n.available_locales = Dir[File.join(locale_dir, "*.yml")].map { |f| File.basename(f, ".yml").to_sym }
+I18n.available_locales = Dir[File.join(data_dir, "*.yml")].map { |f| File.basename(f, ".yml").to_sym }
 
 # Load the timezone monkey-patch
 require "i18n_timezones/timezone"

@@ -2,12 +2,8 @@
 
 require "spec_helper"
 
-Dir.glob("rails/locale/*.yml") do |locale_file|
-  locale = File.basename(locale_file, ".yml")
-
-  describe "#{locale} locale file" do
-    it_behaves_like "a valid locale file", locale_file
-
+I18n.available_locales.each do |locale|
+  describe "#{locale} translations" do
     context "with locale set to #{locale}" do
       before { I18n.locale = locale }
       after { I18n.locale = :en }

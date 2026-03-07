@@ -22,10 +22,11 @@ Gem::Specification.new do |s|
     "bug_tracker_uri" => "https://github.com/onomojo/i18n-timezones/issues"
   }
 
-  s.files = Dir["lib/**/*", "rails/locale/*", "README.md", "CHANGELOG.md", "MIT-LICENSE"]
+  s.files = Dir["lib/**/*", "README.md", "CHANGELOG.md", "MIT-LICENSE"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "activesupport", ">= 7.0", "< 9"
-  s.add_dependency "railties",      ">= 7.0", "< 9"
-  s.add_dependency "i18n",          ">= 1.0", "< 3"
+  s.add_dependency "activesupport",      ">= 7.0", "< 9"
+  s.add_dependency "railties",           ">= 7.0", "< 9"
+  s.add_dependency "i18n",               ">= 1.0", "< 3"
+  s.add_dependency "i18n-timezones-data", "~> 1.0"
 end

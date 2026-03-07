@@ -1,27 +1,21 @@
 # frozen_string_literal: true
 
 require "rails/railtie"
+require "yaml"
+require "i18n_timezones_data"
 
 module I18nTimezones
   class Railtie < ::Rails::Railtie
-    initializer "i18n-timezones" do |app|
-      I18nTimezones::Railtie.instance_eval do
-        pattern = pattern_from(app.config.i18n.available_locales)
-        add("rails/locale/#{pattern}.yml")
-      end
-    end
+    config.after_initialize do
+      data_dir = I18nTimezonesData.data_dir
+      locales = Rails.application.config.i18n.available_locales
 
-    class << self
-      private
+      Dir[File.join(data_dir, "*.yml")].each do |file|
+        locale = File.basename(file, ".yml").to_sym
+        next if locales.present? && !locales.include?(locale)
 
-      def add(pattern)
-        files = Dir[File.join(File.dirname(__FILE__), "../..", pattern)]
-        I18n.load_path.concat(files)
-      end
-
-      def pattern_from(args)
-        array = Array(args || [])
-        array.empty? ? "*" : "{#{array.join(",")}}"
+        translations = YAML.safe_load(File.read(file))
+        I18n.backend.store_translations(locale, timezones: translations)
       end
     end
   end
