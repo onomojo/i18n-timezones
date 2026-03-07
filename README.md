@@ -23,6 +23,8 @@ Add to your Gemfile:
 gem 'i18n-timezones'
 ```
 
+Translation data is provided by the [`i18n-timezones-data`](https://github.com/onomojo/i18n-timezones-data) gem, which is installed automatically as a dependency.
+
 ## Usage
 
 Timezones are automatically translated to the current locale:
@@ -46,41 +48,56 @@ You can also use translations directly:
 I18n.locale = :de
 ActiveSupport::TimeZone["Tokyo"].to_s
 # => "(GMT+09:00) Tokio"
+
+I18n.locale = :ja
+ActiveSupport::TimeZone["Tokyo"].to_s
+# => "(GMT+09:00) 東京"
 ```
 
 ## Supported Locales
 
-Translations are provided for 36 locales:
+Translations are provided for **36 locales** covering all 152 Rails timezones:
 
 ar, bn, ca, cs, da, de, el, en, es, eu, fi, fr, he, hi, hr, hu, id, it, ja, ko, ms, nl, no, pl, pt, pt-BR, ro, ru, sq, sv, th, tr, uk, vi, zh-CN, zh-TW
 
+## How It Works
+
+This gem uses a [Railtie](https://api.rubyonrails.org/classes/Rails/Railtie.html) to automatically load translations after Rails initializes. Translations are loaded from the [`i18n-timezones-data`](https://github.com/onomojo/i18n-timezones-data) gem via `I18n.backend.store_translations`, scoped under `timezones:`.
+
+If your app sets `config.i18n.available_locales`, only the matching locales will be loaded.
+
 ## Without Rails
 
-If you're using ActiveSupport without Rails, load the locale files manually:
+If you're using ActiveSupport without Rails, load translations manually:
 
 ```ruby
 require "i18n"
+require "yaml"
 require "active_support"
 require "i18n_timezones/timezone"
+require "i18n_timezones_data"
 
-I18n.load_path += Dir[File.join(Gem.loaded_specs["i18n-timezones"].full_gem_path, "rails/locale/*.yml")]
+Dir[File.join(I18nTimezonesData.data_dir, "*.yml")].each do |file|
+  locale = File.basename(file, ".yml").to_sym
+  translations = YAML.safe_load(File.read(file))
+  I18n.backend.store_translations(locale, timezones: translations)
+end
 ```
 
 ## Contributing
 
-### Adding a new locale
-
-1. Copy `rails/locale/en.yml` to `rails/locale/<locale>.yml`
-2. Translate all timezone names
-3. Run tests: `bundle exec rake spec`
-4. Submit a pull request
+Translation data lives in the [`i18n-timezones-data`](https://github.com/onomojo/i18n-timezones-data) repo. To add or fix translations, submit a pull request there.
 
 ### Running tests
 
 ```bash
 bundle install
-bundle exec rake spec
+bundle exec rspec
 ```
+
+## Also Available for JavaScript
+
+- [`i18n-timezones-js`](https://www.npmjs.com/package/i18n-timezones-js) — The same translations for JavaScript/TypeScript projects
 
 ## Known Limitations
 
