@@ -28,5 +28,5 @@ Gem::Specification.new do |s|
   s.add_dependency "activesupport",      ">= 7.0", "< 9"
   s.add_dependency "railties",           ">= 7.0", "< 9"
   s.add_dependency "i18n",               ">= 1.0", "< 3"
-  s.add_dependency "i18n-timezones-data", "~> 1.0"
+  s.add_dependency "i18n-timezones-data", "~> 1.1"
 end

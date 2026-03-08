@@ -5,19 +5,19 @@ require "active_support/core_ext/object/blank"
 require "active_support/core_ext/time"
 require "i18n-spec"
 require "i18n"
-require "yaml"
+require "json"
 require "i18n_timezones_data"
 
 # Load translations from the data gem
 data_dir = I18nTimezonesData.data_dir
-Dir[File.join(data_dir, "*.yml")].each do |file|
-  locale = File.basename(file, ".yml").to_sym
-  translations = YAML.safe_load(File.read(file))
+Dir[File.join(data_dir, "*.json")].each do |file|
+  locale = File.basename(file, ".json").to_sym
+  translations = JSON.parse(File.read(file))
   I18n.backend.store_translations(locale, timezones: translations)
 end
 
 I18n.default_locale = :en
-I18n.available_locales = Dir[File.join(data_dir, "*.yml")].map { |f| File.basename(f, ".yml").to_sym }
+I18n.available_locales = Dir[File.join(data_dir, "*.json")].map { |f| File.basename(f, ".json").to_sym }
 
 # Load the timezone monkey-patch
 require "i18n_timezones/timezone"
