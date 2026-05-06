@@ -21,6 +21,7 @@ jobs:
       RAILS_VERSION: ${{ matrix.rails }}
     steps:
       - uses: actions/checkout@v4
+      - run: rm -f Gemfile.lock
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
